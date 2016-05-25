@@ -1,0 +1,109 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #99ABFA;
+  color: white;
+  font-family: sans-serif;
+}
+
+
+/* header */
+.name {
+  margin: 2rem 2rem 0 2rem;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+/* Intro */
+.intro {
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #EFCD70;
+}
+
+.intro-social {
+  margin: 1.5rem 0 0 1rem;
+  width: 300px;
+}
+
+.social-link {
+  margin: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.social-link:hover {
+  color: #EFCD70;
+}
+
+
+
+/* main */
+.main {
+  margin-bottom: 3rem;
+}
+
+.updates {
+  margin: 0;
+  padding: 0 2rem;
+  font-size: 1rem;
+  border-top: 2px solid white;
+}
+
+.updates li {
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.update-title li:last-of-type {
+  border-bottom: 2px solid white;
+}
+
+.update-title {
+  color: white;
+}
+}
+
+/* bullet point hover
+
+.updates:hover,
+.project-link:hover {
+  color: #EFCD70;
+
+}
+
+*/
+
+
+
+/* footer */
+.footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-created {
+  font-size: .8rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 21px;
+  }
+  .name {
+    font-size: 5rem;
+  }
+  .social-link {
+    font-size: 4rem;
+  }
+  .intro-social {
+    width: 550px;
+  }
+}
